@@ -82,7 +82,7 @@ st.subheader("Get ready to laugh with some nerdy jokes! 😆")
 # Button to fetch joke
 if st.button("😂 Crack a Joke!"):
     try:
-        response = requests.get("https://joke-generator-fifty.streamlit.app/jokes")
+        response = requests.get("https://joke-generator-pi-seven.vercel.app/jokes")
         jokes = response.json()
         joke = random.choice(jokes["jokes"])
         
