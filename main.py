@@ -7,7 +7,7 @@ import streamlit as st
 # FastAPI app initialization
 app = FastAPI()
 
-@app.get("/jokes")
+@app.get("https://joke-generator-fifty.streamlit.app/jokes")
 def get_jokes():
     return {"jokes": jokes.tech_jokes}
 
