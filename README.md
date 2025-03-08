@@ -26,8 +26,8 @@ Follow these steps to set up the project locally:
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/yourusername/tech-joke-generator.git
-cd tech-joke-generator
+git clone https://github.com/Muhammad-Shahr0z/Joke-Generator.git
+cd Joke-Generator
 ```
 
 ### 2️⃣ Create & Activate a Virtual Environment
@@ -60,15 +60,7 @@ streamlit run main.py
 The UI will open in your browser.
 
 
-## 🤝 Contributing
-Want to improve this project? Follow these steps:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-name`).
-3. Make your changes and commit (`git commit -m 'Added new feature'`).
-4. Push to your fork (`git push origin feature-name`).
-5. Open a **Pull Request**.
 
----
 
 ## 📜 License
 This project is open-source and available under the **MIT License**.
